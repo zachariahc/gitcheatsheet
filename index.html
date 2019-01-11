@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practice Always</title>
+    <link rel="stylesheet" href="git.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <a href="#"><i class="fab fa-github-alt"></i></a>
+      <p>Github Documentation</p>
+    </nav>
+
+    <div class="flex-container">
+      <div class="box1">
+        <br>
+        <br>
+        <h1>Working</h1>
+        <p>Directory</p>
+      </div>
+      <div class="box2">
+        <br>
+        <br>
+        <h1>Staging</h1>
+        <p>(Index)</p>
+      </div>
+      <div class="box3">
+        <br>
+        <br>
+        <h1>Local</h1>
+        <p>Repository</p>
+      </div>
+      <div class="box4">
+        <br>
+        <br>
+        <h1>Remote</h1>
+        <p>Repository</p>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="arrowbox">
+        <p><i class="fas fa-arrow-right"></i></p>
+      </div>
+      <div class="arrowbox">
+        <p><i class="fas fa-arrow-right"></i></p>
+      </div>
+      <div class="arrowbox">
+        <p><i class="fas fa-arrow-right"></i></p>
+      </div>
+      <div class="arrowbox">
+        <p><i class="fas fa-arrow-right"></i></p>
+      </div>
+    </div>
+
+
+
+    <div class="flex-container2">
+
+      <div class="box11">
+        <h3>Create a Repository</h3>
+        <p>From scratch -- Create a new local
+repository<p>
+<br>
+
+<i>$ git init [project name]</i>
+<br>
+<br>
+Download from an existing repository
+<br>
+<br>
+<i>$ git clone my_url</i></p>
+<br>
+<br>
+<h3>Observe Your Repository</h3>
+<p>
+<br>
+<br>
+List new or modified files not yet
+committed
+<br>
+<br>
+<i>$ git status</i>
+<br>
+<br>
+Show the changes to files not yet staged
+<br>
+<br>
+<i>$ git diff</i>
+<br>
+<br>
+Show the changes to staged files
+<br>
+<br>
+<i>$ git diff --cached</i>
+<br>
+<br>
+Show all staged and unstaged
+file changes
+<br>
+<br>
+<i>$ git diff HEAD</i>
+<br>
+<br>
+Show the changes between two
+commit ids
+<br>
+<br>
+<i>$ git diff commit1 commit2</i>
+<br>
+<br>
+List the change dates and authors
+for a file
+<br>
+<br>
+<i>$ git blame [file]</i>
+<br>
+<br>
+Show the file changes for a commit
+id and/or file
+<br>
+<br>
+<i>$ git show [commit]:[file]</i>
+<br>
+<br>
+Show full change history
+<br>
+<br>
+<i>$ git log</i>
+<br>
+<br>
+Show change history for file/directory
+including diffs
+<br>
+<br>
+<i>$ git log -p [file/directory]</i>
+</p>
+      </div>
+
+      <div class="box11">
+        <h3>Working With Changes</h3>
+        <p>List all local branches
+          <br>
+          <br>
+<i>$ git branch</i>
+<br>
+<br>
+List all branches, local and remote
+<br>
+<br>
+<i>$ git branch -av</i>
+<br>
+<br>
+Switch to a branch, my_branch,
+and update working directory
+<br>
+<br>
+<i>$ git checkout my_branch</i>
+<br>
+<br>
+Create a new branch called new_branch
+<br>
+<br>
+<i>$ git branch new_branch</i>
+<br>
+<br>
+Delete the branch called my_branch
+<br>
+<br>
+<i>$ git branch -d my_branch</i>
+<br>
+<br>
+Merge branch_a into branch_b
+<br>
+<br>
+<i>$ git checkout branch_b</i>
+<br>
+<br>
+<i>$ git merge branch_a</i>
+<br>
+<br>
+Tag the current commit
+<br>
+<br>
+<i>$ git tag my_tag</i></p>
+      </div>
+
+      <div class="box11">
+        <h3>Make A Change</h3>
+        <p>Stages the file, ready for commit
+          <br>
+          <br>
+<i>$ git add [file]</i>
+<br>
+<br>
+Stage all changed files, ready for commit
+<br>
+<br>
+<i>$ git add .</i>
+<br>
+<br>
+Commit all staged files to versioned history
+<br>
+<br>
+<i>$ git commit -m “commit message”</i>
+<br>
+<br>
+Commit all your tracked files to
+versioned history
+<br>
+<br>
+<i>$ git commit -am “commit message”</i>
+<br>
+<br>
+Unstages file, keeping the file changes
+<br>
+<br>
+<i>$ git reset [file]</i>
+<br>
+<br>
+Revert everything to the last commit
+<br>
+<br>
+<i>$ git reset --hard</i></p>
+      </div>
+      <div class="box11">
+        <h3>Synchronize</h3>
+        <p>Get the latest changes from origin
+(no merge)
+<br>
+<br>
+<i>$ git fetch</i>
+<br>
+<br>
+Fetch the latest changes from origin
+and merge
+<br>
+<br>
+<i>$ git pull</i>
+<br>
+<br>
+Fetch the latest changes from origin
+and rebase
+<br>
+<br>
+<i>$ git pull --rebase</i>
+<br>
+<br>
+Push local changes to the origin
+<br>
+<br>
+<i>$ git push</i></p>
+  <h3>Finally!</h3>
+    <p>When in doubt, use git help
+      <br>
+      <br>
+<i>$ git command --help</i></p>
+<br>
+<br>
+<p>Or visit  <a href="https://www.training.github.com">   Github Training Site</a></p>
+      </div>
+
+    </div>
+  </body>
+</html>

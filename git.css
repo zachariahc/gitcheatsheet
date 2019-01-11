@@ -1,0 +1,130 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.navbar {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(65, 55, 40);
+  position: fixed;
+  top: 0;
+
+
+}
+
+.fa-github-alt {
+  color: white;
+  font-size: 4em;
+  overflow-y:hidden;
+  position: fixed;
+  top: 0;
+  margin-left: 25px;
+
+}
+
+.testclass {
+  color: red;
+}
+
+.fa-arrow-right {
+  color: white;
+  font-size: 2.5em;
+  align-items: flex-end;
+}
+
+.arrowbox {
+  background-color: rgb(123, 146, 153);
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  margin-top: 1vw;
+  box-shadow: 3px 3px 15px rgb(98, 98, 98);
+}
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(255, 217, 182);
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.box1 {
+  background-color: rgb(70, 70, 70);
+  width: 300px;
+  height: 175px;
+  margin: 5px;
+  margin-top: 7vw;
+  box-shadow: 2px 3px 10px rgb(56, 56, 56);
+}
+
+.box2 {
+  background-color: rgb(70, 70, 70);
+  width: 300px;
+  height: 175px;
+  margin: 5px;
+  margin-top: 7vw;
+  box-shadow: 2px 3px 10px rgb(56, 56, 56);
+}
+.box3 {
+  background-color: rgb(70, 70, 70);
+  width: 300px;
+  height: 175px;
+  margin: 5px;
+  margin-top: 7vw;
+  box-shadow: 2px 3px 10px rgb(56, 56, 56);
+}
+
+.box4 {
+  background-color: rgb(70, 70, 70);
+  width: 300px;
+  height: 175px;
+  margin: 5px;
+  margin-top: 7vw;
+  box-shadow: 2px 3px 10px rgb(56, 56, 56);
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.box11 {
+
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  margin-top: 2vw;
+
+}
+
+a {
+  color: rgb(185, 211, 255);
+  text-decoration: none;
+}
