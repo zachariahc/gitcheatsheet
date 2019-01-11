@@ -2,36 +2,37 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  background: #355C7D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #183642;
 
+}
 
+h2 {
+  margin-top: -2em;
+  color: white;
+}
+
+.headertext {
+  margin-top: .1em;
 }
 
 .navbar {
-  height: 65px;
   width: 100%;
-  background-color: rgb(65, 55, 40);
+  background-color: #313D5A;
   position: fixed;
   top: 0;
-
-
+  text-align: center;
+  display: none;
 }
+
+
 
 .fa-github-alt {
-  color: white;
-  font-size: 4em;
-  overflow-y:hidden;
-  position: fixed;
+  color: #EAEAEA;
+  font-size: 3.5em;
   top: 0;
-  margin-left: 25px;
 
 }
 
-.testclass {
-  color: red;
-}
 
 .fa-arrow-right {
   color: white;
@@ -40,12 +41,13 @@ background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+
 }
 
 .arrowbox {
-  background-color: rgb(123, 146, 153);
+  background-color: #73628A;
   width: 300px;
   height: auto;
   margin: 5px;
   margin-top: 1vw;
   box-shadow: 3px 3px 15px rgb(98, 98, 98);
+  display: none;
 }
 h1 {
   text-align: center;
@@ -70,6 +72,8 @@ p {
 .flex-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2em;
 
 
 }
@@ -112,6 +116,8 @@ p {
 .flex-container2 {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
 
 }
 
@@ -127,4 +133,12 @@ p {
 a {
   color: rgb(185, 211, 255);
   text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+      margin-top: 8em;
+  }
 }
